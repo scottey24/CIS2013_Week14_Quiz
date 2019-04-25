@@ -1,4 +1,6 @@
-innclude <string>
+#ifndef CARD_CPP
+#define CARD_CPP
+include <string>
 
 using namespace std;
 
@@ -23,5 +25,7 @@ class Card{
 		bool get_used () {return is_used;}
 		int get_weight () {return weight;}
 		
-}
+};
+
+#endif
 		
